@@ -1,38 +1,132 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  max-width: 1250px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
   text-align: center;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.instruction-manual ul {
+  list-style-position: inside;
+  text-align: center;
+  padding-left: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.instruction-manual {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.lights {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.00001rem;
+}
+
+.light {
+  flex: 0 0 calc(10% - 0.5rem);
+  max-width: calc(10% - 0.5rem);
+  box-sizing: border-box;
+  margin: 0.25rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #fdfdfd;
+}
+
+.light button {
+  background-color: #000000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.light button:hover {
+  background-color: #000000;
+}
+
+/* Updated Slider Styles */
+.light input[type="range"] {
+  color: #000000;
+  width: 100%;
+  background: #e1bee7; /* Light Purple */
+}
+
+.light input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #8a2be2; /* Purple */
+  cursor: pointer;
+}
+
+.light input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #8a2be2; /* Purple */
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb {
+  background: #9932cc; /* Darker Purple */
+}
+
+input[type="range"]:hover::-moz-range-thumb {
+  background: #9932cc; /* Darker Purple */
+}
+
+.navigation {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.jump-to-light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.centered-text {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: fit-content;
 }
