@@ -5,20 +5,21 @@ This repository contains the design and implementation of a scalable IoT-control
 Aim: To develop a scalable, efficient, and user-friendly smart lighting system tailored for large-scale buildings. Implement a prototype that is functional and working then analyse how it can be improved in terms of efficiency, scalability, and capability. 
 
 Features
-Scalable Backend: Built using Node.js, ensuring seamless scalability and operational efficiency.
-Interactive Frontend: Developed using React.js for a responsive user experience.
-Database: MongoDB for efficient data storage and retrieval.
-Real-time Feedback: Ensures users perceive the immediate impact of their actions.
-Versatile Control: Manage lighting via physical switches, mobile apps, or web interfaces.
+- Scalable Backend: Built using Node.js, ensuring seamless scalability and operational efficiency.
+- Interactive Frontend: Developed using React.js for a responsive user experience.
+- Database: MongoDB for efficient data storage and retrieval.
+- Real-time Feedback: Ensures users perceive the immediate impact of their actions.
+- Versatile Control: Manage lighting via physical switches, mobile apps, or web interfaces.
+  
 Current Implementation
-The current prototype showcases the core functionalities of the system. It efficiently utilizes the NodeCache package for caching, reducing the load on the database and speeding up response times. The prototype provides a foundational framework, but there are areas for improvement and optimization.
+- The current prototype showcases the core functionalities of the system. It efficiently utilizes the NodeCache package for caching, reducing the load on the database and speeding up response times. The prototype provides a foundational framework, but there are areas for improvement and optimization.
 
 Enhancements & Roadmap
-Migrate MongoDB to AWS for inherent scalability.
-Integrate real-time messaging services like CloudMQTT.
-Implement load balancers, such as AWS Elastic Load Balancing.
-Bolster security with TLS and AWS IAM.
-Efficient data transfer using JSON.
+- Migrate MongoDB to AWS for inherent scalability.
+- Integrate real-time messaging services like CloudMQTT.
+- Implement load balancers, such as AWS Elastic Load Balancing.
+- Bolster security with TLS and AWS IAM.
+- Efficient data transfer using JSON.
 
 ![image](https://github.com/PeterP22/IoT-Smart-Lighting-Proto-Type/assets/61686397/71fbfcdd-2b55-4175-b7e6-94d87e3857df)
 
