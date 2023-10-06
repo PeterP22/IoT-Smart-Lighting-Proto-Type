@@ -1,8 +1,9 @@
-IoT-Controlled Scalable Smart Lighting Prototype and Discussion for Large Buildings
+IoT-Controlled Scalable Smart Lighting Prototype and Discussion for Large Buildings.
 Overview
-This repository contains the design and implementation of a scalable IoT-controlled smart lighting solution tailored for expansive buildings. The project was developed as part of the final assessment
+- This repository contains the design and implementation of a scalable IoT-controlled smart lighting solution tailored for expansive buildings. The project was developed as part of the final assessment
 
-Aim: To develop a scalable, efficient, and user-friendly smart lighting system tailored for large-scale buildings. Implement a prototype that is functional and working then analyse how it can be improved in terms of efficiency, scalability, and capability. 
+Aim
+- To develop a scalable, efficient, and user-friendly smart lighting system tailored for large-scale buildings. Implement a prototype that is functional and working then analyse how it can be improved in terms of efficiency, scalability, and capability. 
 
 Features
 - Scalable Backend: Built using Node.js, ensuring seamless scalability and operational efficiency.
